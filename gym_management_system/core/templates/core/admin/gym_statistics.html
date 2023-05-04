@@ -1,0 +1,27 @@
+{% extends "admin/base.html" %}
+
+{% block content %}
+<h1>{{ title }}</h1>
+<table class="table">
+  <thead>
+    <tr>
+      <th>Name</th>
+      <th>Total Clients</th>
+      <th>Total Income</th>
+      <th>Total Expenses</th>
+      <th>Balance</th>
+    </tr>
+  </thead>
+  <tbody>
+    {% for gym in gyms %}
+    <tr>
+      <td>{{ gym.name }}</td>
+      <td>{{ gym.total_clients }}</td>
+      <td>${{ gym.total_income|default:'0.00' }}</td>
+      <td>${{ gym.total_expenses|default:'0.00' }}</td>
+      <td>${{ gym.balance|default:'0.00' }}</td>
+    </tr>
+    {% endfor %}
+  </tbody>
+</table>
+{% endblock %}

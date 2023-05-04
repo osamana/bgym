@@ -1,0 +1,407 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-05-04 21:07+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 "
+"&& n%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5;\n"
+#: gym_management_system/core/admin.py:31
+msgid "Membership Status"
+msgstr "حالة العضوية"
+
+#: gym_management_system/core/admin.py:54
+#, python-brace-format
+msgid "Income for {0} membership of {1}"
+msgstr "الدخل لعضوية {0} لـ {1}"
+
+#: gym_management_system/core/admin.py:70
+msgid "Icon"
+msgstr "أيقونة"
+
+#: gym_management_system/core/admin.py:78
+msgid "Related Client"
+msgstr "العميل المتعلق"
+
+#: gym_management_system/core/admin.py:102
+msgid "Gym Statistics"
+msgstr "إحصائيات النادي"
+
+#: gym_management_system/core/apps.py:7
+msgid "Gym Manager"
+msgstr "مدير النادي"
+
+#: gym_management_system/core/models.py:10
+#: gym_management_system/core/models.py:32
+#: gym_management_system/core/models.py:62
+msgid "name"
+msgstr "الاسم"
+
+#: gym_management_system/core/models.py:11
+msgid "address"
+msgstr "العنوان"
+
+#: gym_management_system/core/models.py:12
+#: gym_management_system/core/models.py:33
+msgid "phone"
+msgstr "الهاتف"
+
+#: gym_management_system/core/models.py:13
+msgid "email"
+msgstr "البريد الإلكتروني"
+
+#: gym_management_system/core/models.py:43
+msgid "expired"
+msgstr "منتهية"
+
+#: gym_management_system/core/models.py:47
+msgid "expiring_soon"
+msgstr "تنتهي قريبا"
+
+#: gym_management_system/core/models.py:49
+msgid "active"
+msgstr "نشط"
+
+#: gym_management_system/core/models.py:63
+msgid "duration in months"
+msgstr "المدة بالشهور"
+
+#: gym_management_system/core/models.py:64
+msgid "price"
+msgstr "السعر"
+
+#: gym_management_system/core/models.py:76
+msgid "start date"
+msgstr "تاريخ البدء"
+
+#: gym_management_system/core/models.py:77
+msgid "end date"
+msgstr "تاريخ الانتهاء"
+#: gym_management_system/core/models.py:95
+msgid "Income"
+msgstr "الدخل"
+
+#: gym_management_system/core/models.py:96
+msgid "Expense"
+msgstr "المصروف"
+
+#: gym_management_system/core/models.py:99
+msgid "transaction type"
+msgstr "نوع المعاملة"
+
+#: gym_management_system/core/models.py:100
+msgid "amount"
+msgstr "المبلغ"
+
+#: gym_management_system/core/models.py:101
+msgid "date"
+msgstr "التاريخ"
+
+#: gym_management_system/core/models.py:102
+msgid "description"
+msgstr "الوصف"
+
+#: gym_management_system/templates/account/account_inactive.html:5
+#: gym_management_system/templates/account/account_inactive.html:8
+msgid "Account Inactive"
+msgstr "الحساب غير نشط"
+
+#: gym_management_system/templates/account/account_inactive.html:10
+msgid "This account is inactive."
+msgstr "هذا الحساب غير نشط."
+
+#: gym_management_system/templates/account/email.html:7
+msgid "Account"
+msgstr "الحساب"
+
+#: gym_management_system/templates/account/email.html:10
+msgid "E-mail Addresses"
+msgstr "عناوين البريد الإلكتروني"
+
+#: gym_management_system/templates/account/email.html:13
+msgid "The following e-mail addresses are associated with your account:"
+msgstr "العناوين التالية للبريد الإلكتروني مرتبطة بحسابك:"
+#: gym_management_system/templates/account/email.html:27
+msgid "Verified"
+msgstr "تم التحقق"
+
+#: gym_management_system/templates/account/email.html:29
+msgid "Unverified"
+msgstr "غير مؤكد"
+
+#: gym_management_system/templates/account/email.html:31
+msgid "Primary"
+msgstr "الأساسي"
+
+#: gym_management_system/templates/account/email.html:37
+msgid "Make Primary"
+msgstr "جعله أساسي"
+
+#: gym_management_system/templates/account/email.html:38
+msgid "Re-send Verification"
+msgstr "إعادة إرسال التحقق"
+
+#: gym_management_system/templates/account/email.html:39
+msgid "Remove"
+msgstr "إزالة"
+
+#: gym_management_system/templates/account/email.html:46
+msgid "Warning:"
+msgstr "تحذير:"
+
+#: gym_management_system/templates/account/email.html:46
+msgid ""
+"You currently do not have any e-mail address set up. You should really add "
+"an e-mail address so you can receive notifications, reset your password, etc."
+msgstr "ليس لديك حاليا أي عنوان بريد إلكتروني معد. يجب أن تضيف عنوان بريد إلكتروني حتى تتمكن من تلقي الإشعارات وإعادة تعيين كلمة المرور الخاصة بك، إلخ."
+
+#: gym_management_system/templates/account/email.html:51
+msgid "Add E-mail Address"
+msgstr "إضافة عنوان بريد إلكتروني"
+
+#: gym_management_system/templates/account/email.html:56
+msgid "Add E-mail"
+msgstr "أضف البريد الإلكتروني"
+
+#: gym_management_system/templates/account/email.html:66
+msgid "Do you really want to remove the selected e-mail address?"
+msgstr "هل تريد حقًا إزالة عنوان البريد الإلكتروني المحدد؟"
+
+#: gym_management_system/templates/account/email_confirm.html:6
+#: gym_management_system/templates/account/email_confirm.html:10
+msgid "Confirm E-mail Address"
+msgstr "تأكيد عنوان البريد الإلكتروني"
+#: gym_management_system/templates/account/email_confirm.html:16
+#, python-format
+msgid ""
+"Please confirm that <a href=\"mailto:%(email)s\">%(email)s</a> is an e-mail "
+"address for user %(user_display)s."
+msgstr "يرجى التأكيد أن <a href=\"mailto:%(email)s\">%(email)s</a> هو عنوان بريد إلكتروني للمستخدم %(user_display)s."
+
+#: gym_management_system/templates/account/email_confirm.html:20
+msgid "Confirm"
+msgstr "تأكيد"
+
+#: gym_management_system/templates/account/email_confirm.html:27
+#, python-format
+msgid ""
+"This e-mail confirmation link expired or is invalid. Please <a href="
+"\"%(email_url)s\">issue a new e-mail confirmation request</a>."
+msgstr "انتهت صلاحية رابط تأكيد البريد الإلكتروني هذا أو أنه غير صالح. يرجى <a href=\"%(email_url)s\">طلب تأكيد بريد إلكتروني جديد</a>."
+
+#: gym_management_system/templates/account/login.html:7
+#: gym_management_system/templates/account/login.html:11
+#: gym_management_system/templates/account/login.html:56
+#: gym_management_system/templates/base.html:69
+msgid "Sign In"
+msgstr "تسجيل الدخول"
+
+#: gym_management_system/templates/account/login.html:17
+msgid "Please sign in with one of your existing third party accounts:"
+msgstr "الرجاء تسجيل الدخول باستخدام أحد حسابات الجهات الخارجية الموجودة لديك:"
+
+#: gym_management_system/templates/account/login.html:19
+#, python-format
+msgid ""
+"Or, <a href=\"%(signup_url)s\">sign up</a> for a %(site_name)s account and "
+"sign in below:"
+msgstr "أو <a href=\"%(signup_url)s\">سجل</a> للحصول على حساب %(site_name)s وسجل الدخول أدناه:"
+
+#: gym_management_system/templates/account/login.html:32
+msgid "or"
+msgstr "أو"
+
+#: gym_management_system/templates/account/login.html:41
+#, python-format
+msgid ""
+"If you have not created an account yet, then please <a href=\"%(signup_url)s"
+"\">sign up</a> first."
+msgstr "إذا لم تقم بإنشاء حساب بعد، فيرجى <a href=\"%(signup_url)s\">التسجيل</a> أولاً."
+#: gym_management_system/templates/account/login.html:55
+msgid "Forgot Password?"
+msgstr "هل نسيت كلمة المرور؟"
+
+#: gym_management_system/templates/account/logout.html:5
+#: gym_management_system/templates/account/logout.html:8
+#: gym_management_system/templates/account/logout.html:17
+#: gym_management_system/templates/base.html:58
+msgid "Sign Out"
+msgstr "تسجيل الخروج"
+
+#: gym_management_system/templates/account/logout.html:10
+msgid "Are you sure you want to sign out?"
+msgstr "هل أنت متأكد أنك تريد تسجيل الخروج؟"
+
+#: gym_management_system/templates/account/password_change.html:6
+#: gym_management_system/templates/account/password_change.html:9
+#: gym_management_system/templates/account/password_change.html:14
+#: gym_management_system/templates/account/password_reset_from_key.html:5
+#: gym_management_system/templates/account/password_reset_from_key.html:8
+#: gym_management_system/templates/account/password_reset_from_key_done.html:4
+#: gym_management_system/templates/account/password_reset_from_key_done.html:7
+msgid "Change Password"
+msgstr "تغيير كلمة المرور"
+
+#: gym_management_system/templates/account/password_reset.html:7
+#: gym_management_system/templates/account/password_reset.html:11
+#: gym_management_system/templates/account/password_reset_done.html:6
+#: gym_management_system/templates/account/password_reset_done.html:9
+msgid "Password Reset"
+msgstr "إعادة تعيين كلمة المرور"
+
+#: gym_management_system/templates/account/password_reset.html:16
+msgid ""
+"Forgotten your password? Enter your e-mail address below, and we'll send you "
+"an e-mail allowing you to reset it."
+msgstr "هل نسيت كلمة المرور؟ أدخل عنوان بريدك الإلكتروني أدناه، وسنرسل لك رسالة بريد إلكتروني تتيح لك إعادة تعيينها."
+
+#: gym_management_system/templates/account/password_reset.html:21
+msgid "Reset My Password"
+msgstr "إعادة تعيين كلمة المرور الخاصة بي"
+
+#: gym_management_system/templates/account/password_reset.html:24
+msgid "Please contact us if you have any trouble resetting your password."
+msgstr "يرجى الاتصال بنا إذا واجهت أي مشكلة في إعادة تعيين كلمة المرور."
+#: gym_management_system/templates/account/password_reset_done.html:15
+msgid ""
+"We have sent you an e-mail. Please contact us if you do not receive it "
+"within a few minutes."
+msgstr "لقد أرسلنا لك بريدًا إلكترونيًا. يرجى الاتصال بنا إذا لم تتلقى البريد الإلكتروني خلال بضع دقائق."
+
+#: gym_management_system/templates/account/password_reset_from_key.html:8
+msgid "Bad Token"
+msgstr "رمز غير صالح"
+
+#: gym_management_system/templates/account/password_reset_from_key.html:12
+#, python-format
+msgid ""
+"The password reset link was invalid, possibly because it has already been "
+"used.  Please request a <a href=\"%(passwd_reset_url)s\">new password reset</"
+"a>."
+msgstr "كان رابط إعادة تعيين كلمة المرور غير صالح، ربما بسبب استخدامه مسبقًا. يرجى طلب <a href=\"%(passwd_reset_url)s\">إعادة تعيين كلمة مرور جديدة</a>."
+
+#: gym_management_system/templates/account/password_reset_from_key.html:18
+msgid "change password"
+msgstr "تغيير كلمة المرور"
+
+#: gym_management_system/templates/account/password_reset_from_key.html:21
+#: gym_management_system/templates/account/password_reset_from_key_done.html:8
+msgid "Your password is now changed."
+msgstr "تم تغيير كلمة المرور الخاصة بك الآن."
+
+#: gym_management_system/templates/account/password_set.html:6
+#: gym_management_system/templates/account/password_set.html:9
+#: gym_management_system/templates/account/password_set.html:14
+msgid "Set Password"
+msgstr "تعيين كلمة المرور"
+
+#: gym_management_system/templates/account/signup.html:6
+msgid "Signup"
+msgstr "التسجيل"
+
+#: gym_management_system/templates/account/signup.html:9
+#: gym_management_system/templates/account/signup.html:19
+#: gym_management_system/templates/base.html:64
+msgid "Sign Up"
+msgstr "سجل"
+
+#: gym_management_system/templates/account/signup.html:11
+#, python-format
+msgid ""
+"Already have an account? Then please <a href=\"%(login_url)s\">sign in</a>."
+msgstr "هل لديك حساب بالفعل؟ إذن يرجى <a href=\"%(login_url)s\">تسجيل الدخول</a>."
+
+#: gym_management_system/templates/account/signup_closed.html:5
+#: gym_management_system/templates/account/signup_closed.html:8
+msgid "Sign Up Closed"
+msgstr "إغلاق التسجيل"
+#: gym_management_system/templates/account/signup_closed.html:10
+msgid "We are sorry, but the sign up is currently closed."
+msgstr "نأسف، لكن التسجيل مغلق حاليًا."
+
+#: gym_management_system/templates/account/verification_sent.html:5
+#: gym_management_system/templates/account/verification_sent.html:8
+#: gym_management_system/templates/account/verified_email_required.html:5
+#: gym_management_system/templates/account/verified_email_required.html:8
+msgid "Verify Your E-mail Address"
+msgstr "تحقق من عنوان بريدك الإلكتروني"
+
+#: gym_management_system/templates/account/verification_sent.html:10
+msgid ""
+"We have sent an e-mail to you for verification. Follow the link provided to "
+"finalize the signup process. Please contact us if you do not receive it "
+"within a few minutes."
+msgstr "لقد أرسلنا لك بريدًا إلكترونيًا للتحقق. اتبع الرابط المرفق لإتمام عملية التسجيل. يرجى الاتصال بنا إذا لم تتلقى البريد الإلكتروني خلال بضع دقائق."
+
+#: gym_management_system/templates/account/verified_email_required.html:12
+msgid ""
+"This part of the site requires us to verify that\n"
+"you are who you claim to be. For this purpose, we require that you\n"
+"verify ownership of your e-mail address. "
+msgstr "تتطلب هذه الجزء من الموقع منا التأكد من أنك من تدعي أنك هو. لهذا الغرض، نطلب منك التحقق من ملكية عنوان بريدك الإلكتروني."
+
+#: gym_management_system/templates/account/verified_email_required.html:16
+msgid ""
+"We have sent an e-mail to you for\n"
+"verification. Please click on the link inside this e-mail. Please\n"
+"contact us if you do not receive it within a few minutes."
+msgstr "لقد أرسلنا لك بريدًا إلكترونيًا للتحقق. الرجاء النقر على الرابط داخل هذا البريد الإلكتروني. يرجى الاتصال بنا إذا لم تتلقى البريد الإلكتروني خلال بضع دقائق."
+
+#: gym_management_system/templates/account/verified_email_required.html:20
+#, python-format
+msgid ""
+"<strong>Note:</strong> you can still <a href=\"%(email_url)s\">change your e-"
+"mail address</a>."
+msgstr "<strong>ملاحظة:</strong> لا يزال بإمكانك <a href=\"%(email_url)s\">تغيير عنوان بريدك الإلكتروني</a>."
+#: gym_management_system/templates/admin/core/app_index.html:54
+msgid "You don't have permission to view or edit anything."
+msgstr "ليس لديك إذن لعرض أو تعديل أي شيء."
+
+#: gym_management_system/templates/base.html:54
+msgid "My Profile"
+msgstr "ملفي الشخصي"
+
+#: gym_management_system/users/admin.py:17
+msgid "Personal info"
+msgstr "معلومات شخصية"
+
+#: gym_management_system/users/admin.py:19
+msgid "Permissions"
+msgstr "الأذونات"
+
+#: gym_management_system/users/admin.py:30
+msgid "Important dates"
+msgstr "تواريخ مهمة"
+
+#: gym_management_system/users/apps.py:7
+msgid "Users"
+msgstr "المستخدمين"
+
+#: gym_management_system/users/forms.py:28
+#: gym_management_system/users/tests/test_forms.py:36
+msgid "This email has already been taken."
+msgstr "تم أخذ هذا البريد الإلكتروني بالفعل."
+
+#: gym_management_system/users/models.py:17
+msgid "Name of User"
+msgstr "اسم المستخدم"
+
+#: gym_management_system/users/models.py:20
+msgid "email address"
+msgstr "عنوان البريد الإلكتروني"
+
+#: gym_management_system/users/views.py:23
+msgid "Information successfully updated"
+msgstr "تم تحديث المعلومات بنجاح"

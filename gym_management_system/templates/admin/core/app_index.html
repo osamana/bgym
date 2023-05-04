@@ -1,0 +1,57 @@
+{% extends "admin/app_index.html" %}
+{% load i18n %}
+
+{% block extrastyle %}
+<style>
+  .big-model-button {
+    display: inline-block;
+    font-size: 24px;
+    text-align: center;
+    padding: 16px 32px;
+    margin: 20px;
+    background-color: #31708f;
+    color: white !important;
+    border: 1px solid #31708f;
+    border-radius: 10px;
+    text-decoration: none;
+    transition: background-color 0.2s, border-color 0.2s;
+    min-width: 250px;
+    box-sizing: border-box;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.1);
+  }
+
+  .big-model-button:hover {
+    background-color: #245269;
+    border-color: #245269;
+    text-decoration: none;
+    color: white;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.2);
+  }
+
+  .model-container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .dashboard #content {
+    width: auto;
+  }
+
+</style>
+{% endblock %}
+
+{% block content %}
+<div id="content-main">
+  {% if app_list %}
+  <div class="module">
+    <div class="model-container">
+      {% for model in app_list.0.models %}
+      <a href="{{ model.admin_url }}" class="big-model-button">{{ model.name }}</a>
+      {% endfor %}
+    </div>
+  </div>
+  {% else %}
+  <p>{% trans "You don't have permission to view or edit anything." %}</p>
+  {% endif %}
+</div>
+{% endblock %}

@@ -1,0 +1,37 @@
+{% extends "admin/base.html" %}
+
+{% block extrastyle %}
+<style>
+  /* Custom CSS for big navigation buttons */
+  .big-nav-button {
+    display: inline-block;
+    font-size: 16px;
+    text-align: center;
+    padding: 8px 16px;
+    margin: 10px;
+    background-color: #0C4B33;
+    color: white;
+    border: 1px solid #0C4B33;
+    border-radius: 4px;
+    text-decoration: none;
+    transition: background-color 0.2s, border-color 0.2s;
+  }
+
+  .big-nav-button:hover {
+    background-color: #123D29;
+    border-color: #123D29;
+    text-decoration: none;
+    color: white;
+  }
+
+</style>
+{% endblock %}
+
+{% comment %} {% block extrahead %} {% endcomment %}
+{% comment %} <div class="big-navigation">
+  <a href="{% url 'admin:index' %}" class="big-nav-button">Dashboard</a>
+  <a href="{% url 'admin:index' %}" class="big-nav-button">Model 1</a>
+  <a href="{% url 'admin:index' %}" class="big-nav-button">Model 2</a>
+  <!-- Add more navigation buttons as needed -->
+</div> {% endcomment %}
+{% comment %} {% endblock %} {% endcomment %}
