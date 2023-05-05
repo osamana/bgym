@@ -295,3 +295,10 @@ SPECTACULAR_SETTINGS = {
 }
 # Your stuff...
 # ------------------------------------------------------------------------------
+# change default date formate to 19-4-2022 in django admin
+DATE_FORMAT = "Y-m-d"
+DATE_INPUT_FORMATS = ["%Y-%m-%d"]
+DATETIME_FORMAT = "Y-m-d H:i:s"
+DATETIME_INPUT_FORMATS = ["%Y-%m-%d %H:%M:%S"]
+TIME_FORMAT = "H:i:s"
+TIME_INPUT_FORMATS = ["%H:%M:%S"]
