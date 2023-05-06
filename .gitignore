@@ -284,3 +284,4 @@ vendors.js
 .env
 .envs/*
 !.envs/.local/
+env
